@@ -1,0 +1,200 @@
+:root {
+  --main-blue-color: #2c0958;
+  --secondary-blue-color: #48365f;
+  --main-white-color: #ffffff;
+  --secondary-white-color: #fffefe;
+  --background-color: #f8f0fd;
+  --gradient-color: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  --grey-color: #bdbdbd;
+  --footer-text-color: #a6a6a6;
+  --contacts-color: #969797;
+  --footer-bcg-color: #1b013d;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  text-decoration: none;
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.25;
+  text-transform: capitalize;
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.65;
+  text-transform: capitalize;
+  color: var(--main-blue-color);
+}
+
+/* Hero */
+
+.main-title {
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 124px;
+  line-height: 1.25;
+  text-transform: capitalize;
+  color: var(--main-blue-color);
+}
+
+/* .main-title-span {
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 124px;
+  line-height: 1.25;
+  text-transform: capitalize;
+  color: #ffffff;
+  border: 1.54709px solid #ffffff;
+  transform: rotate(7.69deg);
+  background-image: var(--gradient-color);
+} */
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.65;
+  text-transform: capitalize;
+  color: var(--secondary-blue-color);
+}
+
+.numbers {
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.25;
+  text-transform: capitalize;
+  color: var(--main-blue-color);
+}
+
+.hero-list-item {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.49;
+  text-transform: capitalize;
+  color: var(--main-blue-color);
+}
+
+/* Intro */
+
+.intro-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: var(--main-blue-color);
+}
+
+.block-title {
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.25;
+  text-transform: capitalize;
+  color: var(--main-blue-color);
+}
+
+.block-text {
+  font-size: 18px;
+  line-height: 1.65;
+  text-transform: capitalize;
+  color: var(--secondary-blue-color);
+}
+
+.accent {
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Form block */
+
+.form-block {
+  background-image: var(--gradient-color);
+}
+
+.form-title {
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-white-color);
+  border: 1px solid var(--main-white-color);
+}
+
+.form-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.66;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--main-white-color);
+  opacity: 0.7;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-bcg-color);
+}
+
+.footer-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--footer-text-color);
+}
+
+.address-title {
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 28.73px;
+  line-height: 1.35;
+  letter-spacing: 0.12em;
+  text-transform: capitalize;
+  color: var(--main-white-color);
+}
+
+.address-text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: -0.01em;
+  color: var(--contacts-color);
+}
+
+.copyright {
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 1.42;
+  letter-spacing: 0.01em;
+  color: var(--main-white-color);
+}
