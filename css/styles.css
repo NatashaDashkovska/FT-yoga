@@ -27,6 +27,9 @@ h3 {
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
@@ -40,11 +43,10 @@ a {
   margin-left: auto;
   margin-right: auto;
 
-  /* outline: 2px solid tomato; */
+  outline: 2px solid tomato;
 }
 
 /* Header */
-
 
 .header {
   display: flex;
@@ -58,9 +60,6 @@ a {
 
 .nav-list {
   display: flex;
-  padding-left: 0px;
-  margin-top: 0;
-  margin-bottom: 0;
   align-items: center;
 }
 
@@ -84,10 +83,7 @@ a {
 
 .contacts-list {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
   align-items: flex-end;
-  padding-left: 0px;
 }
 
 .nav-link {
@@ -142,7 +138,7 @@ a {
 .nav-btn:last-child {
   align-items: center;
   display: flex;
-  
+
   background: var(--gradient-color);
   box-shadow: 0px 10px 20px rgba(255, 99, 183, 0.2);
   border-radius: 58px;
@@ -176,7 +172,12 @@ a {
 
 /* Hero */
 
+.hero {
+  display: flex;
+}
+
 .main-title {
+  margin-top: 80px;
   font-family: 'El Messiri';
   font-weight: 400;
   font-size: 124px;
@@ -185,19 +186,24 @@ a {
   color: var(--main-blue-color);
 }
 
-/* .main-title-span {
+.main-title-span {
+  display: inline-block;
+  padding: 16px;
+  width: 290px;
   font-family: 'El Messiri';
   font-weight: 400;
   font-size: 124px;
   line-height: 1.25;
   text-transform: capitalize;
   color: #ffffff;
-  border: 1.54709px solid #ffffff;
+  border: 1.5px solid #ffffff;
+  border-radius: 26px;
   transform: rotate(7.69deg);
   background-image: var(--gradient-color);
-} */
+}
 
 .hero-text {
+  margin-top: 24px;
   font-size: 18px;
   line-height: 1.65;
   text-transform: capitalize;
@@ -205,6 +211,7 @@ a {
 }
 
 .numbers {
+  display: block;
   font-family: 'El Messiri';
   font-weight: 400;
   font-size: 64px;
@@ -213,12 +220,56 @@ a {
   color: var(--main-blue-color);
 }
 
+.hero-stats-block {
+  display: flex;
+}
+
+.hero-list {
+  display: flex;
+  margin-top: 60px;
+}
+
+* {
+  outline: 1px solid red;
+}
+
 .hero-list-item {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.49;
   text-transform: capitalize;
   color: var(--main-blue-color);
+}
+
+.hero-list-item:not(:last-child) {
+  margin-right: 76px;
+}
+
+.hero-btn {
+  display: inline-flex;
+  margin-top: 32px;
+  padding: 15px 26px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.65;
+
+  text-transform: capitalize;
+
+  color: #fffefe;
+
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  box-shadow: 0px 10px 20px rgba(255, 99, 183, 0.2);
+  border-radius: 58px;
+}
+
+.hero-btn-arrow {
+  margin-left: 10px;
+}
+
+.hero-stats-img {
+  margin-left: 32px;
 }
 
 /* Intro */
