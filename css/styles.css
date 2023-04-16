@@ -274,12 +274,34 @@ a {
 
 /* Intro */
 
+.intro-section {
+  display: flex;
+  align-items: center;  
+}
+
+.intro-number {
+  margin-right: 47px;
+  font-family: 'El Messiri';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100px;
+  text-transform: capitalize;
+
+  color: #2c0958;
+}
+
 .intro-text {
+  margin-right: 58px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   text-transform: capitalize;
   color: var(--main-blue-color);
+}
+
+.intro-img {
+  margin-right: 34px;
 }
 
 .block-title {
