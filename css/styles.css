@@ -46,8 +46,6 @@ a {
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  outline: 2px solid tomato;
 }
 
 /* Header */
@@ -233,10 +231,6 @@ a {
   margin-top: 60px;
 }
 
-/* * {
-  outline: 1px solid red;
-} */
-
 .hero-list-item {
   font-weight: 400;
   font-size: 20px;
@@ -366,10 +360,44 @@ a {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: var(--footer-bcg-color);
 }
 
+.footer-main-block {
+  display: flex;
+}
+
+.footer-list {
+  display: flex;
+  margin-left: 195px;
+}
+
+.footer-list-item:not(:last-child) {
+  margin-right: 70px;
+}
+
+.footer-list-item:first-child .address-text {
+  margin-top: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+}
+
+.footer-logo {
+  display: inline-block;
+  padding-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
 .footer-text {
+  display: block;
+  width: 295px;
+
+  margin-top: 16px;
   font-family: 'Roboto';
   font-style: normal;
   font-size: 16px;
@@ -378,6 +406,8 @@ a {
 }
 
 .address-title {
+  margin-bottom: 40px;
+
   font-family: 'El Messiri';
   font-weight: 400;
   font-size: 28.73px;
@@ -389,6 +419,7 @@ a {
 
 .address-text {
   font-family: 'Roboto';
+  font-style: normal;
   font-size: 18px;
   line-height: 1.44;
   letter-spacing: -0.01em;
@@ -401,6 +432,13 @@ a {
   line-height: 1.42;
   letter-spacing: 0.01em;
   color: var(--main-white-color);
+}
+
+.footer-accent {
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Buttons */
@@ -477,3 +515,18 @@ a {
   box-shadow: 0px 10px 20px rgba(255, 99, 183, 0.2);
   border-radius: 50%;
 }
+
+.round-btn:hover,
+.round-btn:focus {
+  background: var(--background-color);
+  box-shadow: inset 0px 10px 20px rgba(255, 99, 183, 0.2);
+  outline: 2px solid rgba(255, 99, 183, 0.2);
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
