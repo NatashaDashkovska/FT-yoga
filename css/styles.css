@@ -334,10 +334,16 @@ a {
 /* Form block */
 
 .form-block {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px 171px;
+  width: 962px;
   background-image: var(--gradient-color);
 }
 
 .form-title {
+  margin-bottom: 16px;
+
   font-family: 'El Messiri';
   font-weight: 400;
   font-size: 48px;
@@ -345,7 +351,6 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: var(--main-white-color);
-  border: 1px solid var(--main-white-color);
 }
 
 .form-text {
@@ -447,4 +452,28 @@ a {
 .btn {
   padding-right: 36px;
   padding-left: 36px;
+}
+
+.round-btn {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  margin-top: 32px;
+
+  flex-wrap: wrap;
+
+  padding: 30px 28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+
+  text-transform: capitalize;
+
+  color: #fffefe;
+
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  box-shadow: 0px 10px 20px rgba(255, 99, 183, 0.2);
+  border-radius: 50%;
 }
