@@ -36,6 +36,10 @@ a {
   text-decoration: none;
 }
 
+.img {
+  display: block;
+}
+
 .container {
   max-width: 1230px;
   padding-right: 15px;
@@ -229,9 +233,9 @@ a {
   margin-top: 60px;
 }
 
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 .hero-list-item {
   font-weight: 400;
@@ -245,29 +249,6 @@ a {
   margin-right: 76px;
 }
 
-.hero-btn {
-  display: inline-flex;
-  margin-top: 32px;
-  padding: 15px 26px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.65;
-
-  text-transform: capitalize;
-
-  color: #fffefe;
-
-  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
-  box-shadow: 0px 10px 20px rgba(255, 99, 183, 0.2);
-  border-radius: 58px;
-}
-
-.hero-btn-arrow {
-  margin-left: 10px;
-}
-
 .hero-stats-img {
   margin-left: 32px;
 }
@@ -276,7 +257,7 @@ a {
 
 .intro-section {
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 .intro-number {
@@ -305,6 +286,8 @@ a {
 }
 
 .block-title {
+  margin-top: 174px;
+
   font-family: 'El Messiri';
   font-weight: 400;
   font-size: 80px;
@@ -325,6 +308,27 @@ a {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.happiness-section {
+  display: flex;
+}
+
+.happiness-block {
+  margin-left: 36px;
+}
+
+.happiness-img {
+  width: 568px;
+  margin-left: -18px;
+}
+
+.workout-section {
+  display: flex;
+}
+
+.img-block {
+  margin-top: 100px;
 }
 
 /* Form block */
@@ -392,4 +396,55 @@ a {
   line-height: 1.42;
   letter-spacing: 0.01em;
   color: var(--main-white-color);
+}
+
+/* Buttons */
+
+.hero-btn {
+  display: inline-flex;
+  margin-top: 32px;
+  padding: 15px 26px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.65;
+
+  text-transform: capitalize;
+
+  color: #fffefe;
+
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  box-shadow: 0px 10px 20px rgba(255, 99, 183, 0.2);
+  border-radius: 58px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--background-color);
+  box-shadow: inset 0px 10px 20px rgba(255, 99, 183, 0.2);
+  outline: 2px solid rgba(255, 99, 183, 0.2);
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-btn-arrow {
+  margin-left: 10px;
+}
+
+/* .hero-btn:hover .hero-btn-arrow,
+.hero-btn:focus .hero-btn-arrow {
+  background: var(--background-color);
+
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.btn {
+  padding-right: 36px;
+  padding-left: 36px;
 }
