@@ -40,6 +40,19 @@ a {
   display: block;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .container {
   max-width: 1230px;
   padding-right: 15px;
@@ -426,7 +439,32 @@ a {
   color: var(--contacts-color);
 }
 
+.social-list {
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.social-list-item {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.social-list-item:hover {
+  background-color: var(--background-color);
+}
+
+.social-list-item img {
+  display: block;
+}
+
 .copyright {
+  margin-top: 20px;
   font-family: 'Roboto';
   font-size: 18px;
   line-height: 1.42;
@@ -441,12 +479,20 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+.footer-underline-block {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Buttons */
 
 .hero-btn {
   display: inline-flex;
   margin-top: 32px;
   padding: 15px 26px;
+
+  align-items: center;
+
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -475,17 +521,16 @@ a {
 
 .hero-btn-arrow {
   margin-left: 10px;
+
+  stroke: #fff;
+  fill: transparent;
+  stroke-width: 2.064;
 }
 
-/* .hero-btn:hover .hero-btn-arrow,
-.hero-btn:focus .hero-btn-arrow {
-  background: var(--background-color);
-
-  background-image: var(--gradient-color);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+.hero-btn:hover .hero-btn-arrow > use,
+.hero-btn:focus .hero-btn-arrow > use {
+  stroke: #9f53ff;
+}
 
 .btn {
   padding-right: 36px;
@@ -516,6 +561,12 @@ a {
   border-radius: 50%;
 }
 
+.round-btn .hero-btn-arrow {
+  stroke-width: 1.255;
+  margin-left: 0;
+  height: 45px;
+}
+
 .round-btn:hover,
 .round-btn:focus {
   background: var(--background-color);
@@ -525,6 +576,11 @@ a {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.round-btn:hover .hero-btn-arrow > use,
+.round-btn:focus .hero-btn-arrow > use {
+  stroke: #9f53ff;
 }
 
 /* * {
