@@ -410,17 +410,29 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
+/* Happiness section */
+
 .happiness-section {
   display: flex;
+  margin-top: 74px;
 }
 
 .happiness-block {
   margin-left: 36px;
 }
 
-.happiness-img {
+.happiness-img-block {
+  position: relative;
+}
+
+.happiness-lotus-img {
   width: 568px;
-  margin-left: -18px;
+  margin-top: 134px;
+}
+
+.happiness-trainer-img {
+  position: absolute;
+  left: 89px;
 }
 
 .workout-section {
@@ -429,6 +441,88 @@ a {
 
 .img-block {
   margin-top: 100px;
+}
+
+.happiness-block-title {
+  margin-top: 138px;
+}
+
+.heart-block {
+  position: absolute;
+  top: 52px;
+  left: -18px;
+  width: 215px;
+  height: 86px;
+  display: flex;
+  padding: 10px 32px 10px 16px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.heart {
+  margin-right: 6px;
+  background-color: rgba(255, 45, 39, 0.15);
+  border-radius: 50%;
+  padding-top: 16px;
+  padding-left: 15px;
+}
+.heart-block-header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+
+  color: #2c0958;
+}
+.heart-block-number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.courses-stats-block {
+  position: absolute;
+  width: 170px;
+  height: 86px;
+  bottom: -39px;
+  left: 354px;
+  padding: 10px 24px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+.courses-number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.courses-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+
+  letter-spacing: -0.5px;
+
+  color: #2c0958;
 }
 
 /* Form block */
