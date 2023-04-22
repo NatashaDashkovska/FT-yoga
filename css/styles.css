@@ -9,6 +9,7 @@
   --footer-text-color: #a6a6a6;
   --contacts-color: #969797;
   --footer-bcg-color: #1b013d;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -83,7 +84,6 @@ a {
   margin-bottom: 5px;
   margin-right: 369px;
 
-  text-decoration: none;
   font-family: 'El Messiri';
   font-weight: 400;
   font-size: 36px;
@@ -105,7 +105,6 @@ a {
   padding-top: 43px;
   padding-bottom: 13px;
 
-  text-decoration: none;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.65;
@@ -131,8 +130,6 @@ a {
   align-items: center;
   margin-right: 46px;
   margin-bottom: 13px;
-
-  text-decoration: none;
 
   font-weight: 600;
   font-size: 18px;
@@ -189,9 +186,12 @@ a {
 
 .hero {
   display: flex;
+  position: relative;
 }
 
 .main-title {
+  display: inline-block;
+  width: 690px;
   margin-top: 80px;
   font-family: 'El Messiri';
   font-weight: 400;
@@ -237,6 +237,7 @@ a {
 
 .hero-stats-block {
   display: flex;
+  width: 424px;
 }
 
 .hero-list {
@@ -256,8 +257,47 @@ a {
   margin-right: 76px;
 }
 
+.dots-img {
+  position: absolute;
+  left: -26px;
+  bottom: 360px;
+}
+
+.trainer-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 555px;
+  z-index: 2;
+}
+.lotus-img {
+  position: absolute;
+  bottom: 109px;
+  width: 695px;
+  height: 490px;
+  right: -70px;
+  z-index: -1;
+}
+.circle-img {
+  position: absolute;
+  top: 34px;
+  right: 210px;
+}
+.big-star-img {
+  position: absolute;
+  left: 600px;
+  bottom: 562px;
+}
+.little-star-img {
+  position: absolute;
+  bottom: -72px;
+  left: 910px;
+}
+
 .hero-stats-img {
-  margin-left: 32px;
+  position: absolute;
+  left: 471px;
+  bottom: 112px;
 }
 
 /* Intro */
@@ -265,6 +305,7 @@ a {
 .intro-section {
   display: flex;
   align-items: center;
+  margin-top: 100px;
 }
 
 .intro-number {
@@ -279,8 +320,34 @@ a {
   color: #2c0958;
 }
 
-.intro-text {
+.intro-img {
+  position: relative;
+}
+
+.intro-img-bcg {
+  width: 425px;
+  height: 180px;
+
+  background: rgba(159, 83, 255, 0.1);
+  border-radius: 200px;
+}
+
+.intro-trainer-img {
+  position: absolute;
+  bottom: 15px;
+  left: 46px;
+}
+
+.intro-text-block {
+  display: block;
+  width: 346px;
   margin-right: 58px;
+  position: relative;
+}
+
+.intro-text {
+  text-indent: 25px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -288,8 +355,34 @@ a {
   color: var(--main-blue-color);
 }
 
+.stars {
+  position: absolute;
+  bottom: 53px;
+}
+
 .intro-img {
   margin-right: 34px;
+}
+
+.intro-btn {
+  display: block;
+  text-align: center;
+  position: relative;
+  width: 180px;
+  height: 171px;
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  padding: 0;
+  border: none;
+}
+
+.ellipse-img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .block-title {
@@ -583,6 +676,6 @@ a {
   stroke: #9f53ff;
 }
 
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
