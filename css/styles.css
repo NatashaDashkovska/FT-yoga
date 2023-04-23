@@ -37,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -385,6 +385,10 @@ a {
   left: 0;
 }
 
+.rainbow-arrow {
+  display: inline;
+}
+
 .block-title {
   margin-top: 174px;
 
@@ -435,16 +439,9 @@ a {
   left: 89px;
 }
 
-.workout-section {
-  display: flex;
-}
-
-.img-block {
-  margin-top: 100px;
-}
-
 .happiness-block-title {
   margin-top: 138px;
+  margin-bottom: 40px;
 }
 
 .heart-block {
@@ -523,6 +520,106 @@ a {
   letter-spacing: -0.5px;
 
   color: #2c0958;
+}
+
+/* Workout section */
+
+.workout-section {
+  display: flex;
+  margin-top: 139px;
+}
+
+.workout-title {
+  margin-top: 74px;
+  margin-bottom: 40px;
+}
+
+.img-block {
+  position: relative;
+  height: 742px;
+}
+
+.workout-trainer-img-s {
+  position: absolute;
+  left: 93px;
+  top: 294px;
+  z-index: -1;
+}
+
+.workout-play-icon {
+  position: absolute;
+  top: 174px;
+  left: 282px;
+}
+.workout-video-block {
+  position: absolute;
+  width: 248px;
+  height: 62px;
+  left: 471px;
+  top: 157px;
+
+  display: flex;
+  align-items: center;
+  padding: 15px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+.play-icon-dark {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+.workout-video-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.trainer-block {
+  position: absolute;
+  width: 263px;
+  height: 62px;
+  top: 611px;
+  left: -16px;
+
+  display: flex;
+  padding: 15px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
+.trainer-icon {
+  margin-right: 12px;
+
+  width: 32px;
+  height: 32px;
+}
+.trainer-text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Invitation section */
+
+.invitation-section {
+  margin-top: 15px;
 }
 
 /* Form block */
