@@ -621,7 +621,7 @@ img {
 .invitation-section {
   margin-top: 100px;
   position: relative;
-  height: 875px;
+  height: 905px;
 }
 
 .invitation-title {
@@ -640,8 +640,6 @@ img {
   color: var(--main-blue-color);
 }
 
-.invitation-trainer1 {
-}
 .invitation-trainer2 {
   position: absolute;
   right: 0;
@@ -711,11 +709,13 @@ img {
 /* Form block */
 
 .form-block {
+  margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
   padding: 60px 171px;
   width: 962px;
   background-image: var(--gradient-color);
+  border-radius: 32px;
 }
 
 .form-title {
@@ -740,9 +740,64 @@ img {
   opacity: 0.7;
 }
 
+.form {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 526px;
+  margin-top: 32px;
+  position: relative;
+}
+.form-input {
+  width: 526px;
+  height: 70px;
+  padding: 22px 20px;
+
+  background: #ffffff;
+  border-radius: 58px;
+  border: none;
+}
+
+.form-input::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 165.5%;
+  /* or 26px */
+
+  letter-spacing: -0.02em;
+
+  color: #bdbdbd;
+
+  opacity: 0.7;
+}
+
+.form-btn {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 16px 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  border-radius: 33px;
+  border: none;
+}
+
 /* Footer */
 
 .footer {
+  margin-top: 100px;
   padding-top: 60px;
   padding-bottom: 60px;
 
