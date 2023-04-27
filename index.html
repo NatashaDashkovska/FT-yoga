@@ -2,85 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FT Yoga</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=El+Messiri&family=Inter:wght@400;700&family=Poppins:wght@400;500;600&family=Roboto&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
         integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/index.min.css" />
 </head>
 
+
+
 <body>
+
     <!-- Header -->
     <header class="container header">
-        <nav class="main-nav">
+        <nav class="nav">
             <a class="logo" href="./index.html"> FT Yoga </a>
 
-            <ul class="nav-list">
-                <li class="nav-link"><a href="">Pricing</a></li>
-                <li class="nav-link"><a href="">About</a></li>
-                <li class="nav-link"><a href="">Contacts</a></li>
+            <ul class="nav__list">
+                <li class="nav__link"><a href="./">Pricing</a></li>
+                <li class="nav__link"><a href="./">About</a></li>
+                <li class="nav__link"><a href="./">Contacts</a></li>
             </ul>
         </nav>
 
-        <ul class="contacts-list">
-            <li class="nav-btn"><a href="./">Log In</a></li>
-            <li class="nav-btn"><a href="./">Log In</a></li>
+        <ul class="nav__contacts-list">
+            <li class="nav__btn"><a href="./">Log In</a></li>
+            <li class="nav__btn"><a href="./">Log In</a></li>
         </ul>
     </header>
-    <main>
-        <!-- Hero -->
 
+    <main>
         <section class="container hero">
-            <div class="hero-main-block">
-                <h1 class="main-title">
-                    Choose Your Best <span class="main-title-span">Yoga</span> Teacher
+            <div>
+                <h1 class="hero__title">
+                    Choose Your Best <span class="hero__title--span">Yoga</span> Teacher
                 </h1>
 
-                <div class="hero-stats-block">
+                <div class="hero__stats-block">
                     <div>
-                        <p class="hero-text">
+                        <p class="hero__text">
                             There are many variations of passages of Lorem Ipsum available,
                             but the majority have
                         </p>
-                        <a class="hero-btn" href="./">Get started Free
-                            <svg class="hero-btn-arrow" width="30" height="22">
+                        <a class="hero__btn" href="./">Get started Free
+                            <svg class="hero__btn--arrow" width="30" height="22">
                                 <use href="./images/sprite.svg#icon-short-arrow"></use>
                             </svg>
                         </a>
-                        <ul class="hero-list">
-                            <li class="hero-list-item">
-                                <span class="numbers">300+</span> Yoga Class
+                        <ul class="hero__list">
+                            <li class="hero__item">
+                                <span class="hero--numbers">300+</span> Yoga Class
                             </li>
-                            <li class="hero-list-item">
-                                <span class="numbers">40k+</span> Participant
+                            <li class="hero__item">
+                                <span class="hero--numbers">40k+</span> Participant
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <div class="hero-images">
-                <img class="trainer-img" src="./images/hero-trainer.svg" alt="woman doing yoga" width="510" />
-                <img src="./images/lotus.svg" alt="" class="lotus-img" />
-                <img src="./images/dotted-circle.svg" alt="" class="circle-img" />
-                <img src="./images/big-star.svg" alt="" class="big-star-img" />
-                <img src="./images/little-star.svg" alt="" class="little-star-img" />
-                <img class="hero-stats-img" src="./images/stats.svg" alt="fitness stats" width="220" height="220" />
-                <img src="./images/dots.svg" alt="" class="dots-img" />
+            <div class="hero__images">
+                <img src="./images/hero-trainer.svg" alt="woman doing yoga" width="510" class="hero__trainer-img" />
+                <img src="./images/lotus.svg" alt="decor" class="hero__lotus-img" />
+                <img src="./images/dotted-circle.svg" alt="decor" class="hero__circle-img" />
+                <img src="./images/big-star.svg" alt="decor" class="hero__big-star-img" />
+                <img src="./images/little-star.svg" alt="decor" class="hero__little-star-img" />
+                <img src="./images/stats.svg" alt="fitness stats" width="220" height="220" class="hero__stats-img" />
+                <img src="./images/dots.svg" alt="decor" class="hero__dots-img" />
             </div>
         </section>
 
+
+
+
         <!-- Intro section -->
 
-        <section class="container">
+        <!-- <section class="container">
             <h2 class="visually-hidden">Intro</h2>
             <div class="intro-section">
                 <p class="intro-number">#01</p>
@@ -101,10 +104,10 @@
                     <img class="ellipse-img" src="./images/ellipse.svg" alt="" />
                 </button>
             </div>
-        </section>
+        </section> -->
 
         <!-- Happiness section -->
-        <section class="container happiness-section">
+        <!-- <section class="container happiness-section">
             <div class="happiness-img-block">
                 <img class="happiness-trainer-img" src="./images/jumping-trainer.svg" alt="man doing yoga" />
                 <img class="happiness-lotus-img" src="./images/underlayer.svg" alt="logo" />
@@ -135,11 +138,11 @@
                         <use href="./images/sprite.svg#icon-short-arrow"></use>
                     </svg></a>
             </div>
-        </section>
+        </section> -->
 
         <!-- Workout section -->
 
-        <section class="container workout-section">
+        <!-- <section class="container workout-section">
             <div>
                 <h2 class="block-title workout-title">Anytime, any place, any workout</h2>
                 <p class="block-text">
@@ -165,13 +168,13 @@
                     <p class="trainer-text">Professional Trainer</p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <!-- Invitation section -->
 
 
-        <section class="container invitation-section">
+        <!-- <section class="container invitation-section">
             <img class="invitation-trainer1" src="./images/example1.svg" alt="man doing yoga">
             <img class="invitation-trainer2" src="./images/example2.svg" alt="woman doing yoga">
             <img class="invitation-trainer3" src="./images/example3.svg" alt="woman doing yoga">
@@ -184,10 +187,10 @@
                 <svg class="hero-btn-arrow">
                     <use href="./images/sprite.svg#icon-long-arrow"></use>
                 </svg></a>
-        </section>
+        </section> -->
 
         <!-- Form block -->
-        <section class="container">
+        <!-- <section class="container">
             <div class="form-block">
                 <h2 class="form-title">Join our newsletter</h2>
                 <p class="form-text">
@@ -200,9 +203,9 @@
                     <button class="form-btn">Subscribe</button>
                 </form>
             </div>
-        </section>
+        </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="footer-main-block">
                 <div>
@@ -254,7 +257,7 @@
                 </p>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>

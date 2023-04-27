@@ -1,0 +1,16 @@
+.logo {
+  padding-top: 36px;
+  margin-bottom: 5px;
+  margin-right: 369px;
+
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.25;
+  text-transform: capitalize;
+
+  background-image: $gradient-color;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

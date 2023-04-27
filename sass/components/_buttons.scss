@@ -1,0 +1,50 @@
+.hero__btn {
+  margin-top: 32px;
+  padding: 15px 26px;
+
+  display: inline-flex;
+  align-items: center;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.65;
+
+  text-transform: capitalize;
+
+  color: $secondary-white-color;
+
+  background: $gradient-color;
+  box-shadow: 0px 10px 20px $shadow-color;
+  border-radius: 58px;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+  background: $background-color;
+  box-shadow: inset 0px 10px 20px $shadow-color;
+  outline: 2px solid $shadow-color;
+  background-image: $gradient-color;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero__btn--arrow {
+  margin-left: 10px;
+
+  stroke: $main-white-color;
+  fill: transparent;
+  stroke-width: 2.064;
+}
+
+.hero__btn:hover .hero__btn--arrow > use,
+.hero__btn:focus .hero__btn--arrow > use {
+  stroke: #9f53ff;
+}
+
+// .btn {
+//   padding-right: 36px;
+//   padding-left: 36px;
+// }

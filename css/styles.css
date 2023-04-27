@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --main-blue-color: #2c0958;
   --secondary-blue-color: #48365f;
   --main-white-color: #ffffff;
@@ -10,9 +10,9 @@
   --contacts-color: #969797;
   --footer-bcg-color: #1b013d;
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   margin: 0;
   background-color: var(--background-color);
   font-family: 'Poppins', sans-serif;
@@ -52,19 +52,19 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.container {
+/* .container {
   max-width: 1230px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* Header */
 
-.header {
+/* .header {
   display: flex;
   align-content: center;
 }
@@ -180,16 +180,16 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 /* Hero */
 
-.hero {
+/* .hero {
   display: flex;
   position: relative;
-}
+} */
 
-.main-title {
+/* .main-title {
   display: inline-block;
   width: 690px;
   margin-top: 80px;
@@ -298,7 +298,7 @@ img {
   position: absolute;
   left: 471px;
   bottom: 112px;
-}
+} */
 
 /* Intro */
 
@@ -911,7 +911,7 @@ img {
 
 /* Buttons */
 
-.hero-btn {
+/* .hero-btn {
   display: inline-flex;
   margin-top: 32px;
   padding: 15px 26px;
@@ -960,7 +960,7 @@ img {
 .btn {
   padding-right: 36px;
   padding-left: 36px;
-}
+} */
 
 * {
   outline: 1px solid red;
