@@ -302,7 +302,7 @@ img {
 
 /* Intro */
 
-.intro-section {
+/* .intro-section {
   display: flex;
   align-items: center;
   margin-top: 100px;
@@ -412,11 +412,11 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 /* Happiness section */
 
-.happiness-section {
+/* .happiness-section {
   display: flex;
   margin-top: 74px;
 }
@@ -505,7 +505,7 @@ img {
   line-height: 150%;
   /* identical to box height, or 36px */
 
-  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+/* background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -520,7 +520,8 @@ img {
   letter-spacing: -0.5px;
 
   color: #2c0958;
-}
+} */
+*/
 
 /* Workout section */
 

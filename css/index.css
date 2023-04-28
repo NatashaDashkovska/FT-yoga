@@ -41,6 +41,30 @@ img {
   margin: -1px;
 }
 
+.block-title {
+  margin-top: 174px;
+  font-family: "El Messiri";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.25;
+  text-transform: capitalize;
+  color: var(--main-blue-color);
+}
+
+.block-text {
+  font-size: 18px;
+  line-height: 1.65;
+  text-transform: capitalize;
+  color: var(--secondary-blue-color);
+}
+
+.accent {
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .container {
   max-width: 1230px;
   padding-right: 15px;
@@ -321,4 +345,192 @@ img {
 .hero__btn:hover .hero__btn--arrow > use,
 .hero__btn:focus .hero__btn--arrow > use {
   stroke: #9f53ff;
+}
+
+.btn {
+  padding-right: 36px;
+  padding-left: 36px;
+}
+
+.intro-section {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.intro-section__number {
+  margin-right: 47px;
+  font-family: "El Messiri";
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1, 25;
+  text-transform: capitalize;
+  color: #2c0958;
+}
+
+.img-block {
+  position: relative;
+  margin-right: 34px;
+}
+
+.img-block--bcg {
+  width: 425px;
+  height: 180px;
+  background: rgba(159, 83, 255, 0.1);
+  border-radius: 200px;
+}
+
+.img-block__img {
+  position: absolute;
+  bottom: 15px;
+  left: 46px;
+}
+
+.intro-section__text-block {
+  position: relative;
+  width: 346px;
+  margin-right: 58px;
+  display: block;
+}
+
+.intro-section__text {
+  text-indent: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #2c0958;
+}
+
+.stars {
+  position: absolute;
+  bottom: 53px;
+}
+
+.intro-section__btn {
+  position: relative;
+  width: 180px;
+  height: 171px;
+  display: block;
+  text-align: center;
+  padding: 0;
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  border: none;
+}
+
+.ellipse-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rainbow-arrow {
+  display: inline;
+}
+
+.hap-section {
+  margin-top: 74px;
+  display: flex;
+}
+
+.hap-section__text-block {
+  margin-left: 36px;
+}
+
+.hap-section__img-block {
+  position: relative;
+}
+
+.hap-section__img-lotus {
+  width: 568px;
+  margin-top: 134px;
+}
+
+.hap-section__img-trainer {
+  position: absolute;
+  left: 89px;
+}
+
+.hap-section__title {
+  margin-top: 138px;
+  margin-bottom: 40px;
+}
+
+.heart-block {
+  position: absolute;
+  top: 52px;
+  left: -18px;
+  width: 215px;
+  height: 86px;
+  display: flex;
+  padding: 10px 32px 10px 16px;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.heart {
+  margin-right: 6px;
+  padding-top: 16px;
+  padding-left: 15px;
+  background-color: rgba(255, 45, 39, 0.15);
+  border-radius: 50%;
+}
+
+.heart-block__header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  color: #2c0958;
+}
+
+.heart-block__number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.courses__block {
+  position: absolute;
+  width: 170px;
+  height: 86px;
+  bottom: -39px;
+  left: 354px;
+  padding: 10px 24px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.courses__number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  background: linear-gradient(68deg, #ff62b7 14.39%, #9f53ff 79.59%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.courses__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  color: #2c0958;
 }/*# sourceMappingURL=index.css.map */

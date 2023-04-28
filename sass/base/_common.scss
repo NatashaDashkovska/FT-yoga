@@ -39,3 +39,28 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.block-title {
+  margin-top: 174px;
+
+  font-family: 'El Messiri';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.25;
+  text-transform: capitalize;
+  color: var(--main-blue-color);
+}
+
+.block-text {
+  font-size: 18px;
+  line-height: 1.65;
+  text-transform: capitalize;
+  color: var(--secondary-blue-color);
+}
+
+.accent {
+  background-image: var(--gradient-color);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
